@@ -48,7 +48,7 @@ def main(input_file_name):
                                        'birth_year': birth_year,
                                        'death_year': death_year}
 
-            books_authors.append((authors[author_key]['id'], books[book_key]['id']))
+            books_authors.append((books[book_key]['id'], authors[author_key]['id']))
 
     # Write to the table files
     with open('authors.csv', 'w') as f:
