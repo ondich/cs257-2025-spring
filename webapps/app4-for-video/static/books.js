@@ -11,7 +11,7 @@
  * a feel for some Javascript basics.
  */
 
-window.onload = initialize;
+window.addEventListener("load", initialize);
 
 function initialize() {
     var element = document.getElementById('authors_button');

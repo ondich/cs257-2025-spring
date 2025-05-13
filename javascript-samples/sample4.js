@@ -14,5 +14,5 @@ function initialize() {
     }
 }
 
-window.onload = initialize;
+window.addEventListener("load", initialize);
 

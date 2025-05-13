@@ -4,7 +4,7 @@
  * Updated, 5 November 2020
  */
 
-window.onload = initialize;
+window.addEventListener("load", initialize);
 
 function initialize() {
     loadAuthorsSelector();

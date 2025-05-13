@@ -6,7 +6,7 @@
  * A little bit of Javascript for the tiny web app sample for CS257.
  */
 
-window.onload = initialize;
+window.addEventListener("load", initialize);
 
 function initialize() {
     var element = document.getElementById('cats_button');

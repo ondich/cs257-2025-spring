@@ -33,5 +33,5 @@ function initialize() {
     document.onkeypress = onKeyPress;
 }
 
-window.onload = initialize;
+window.addEventListener("load", initialize);
 

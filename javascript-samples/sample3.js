@@ -16,5 +16,5 @@ function initialize() {
     button.onclick = onChangeWordButton;
 }
 
-window.onload = initialize;
+window.addEventListener("load", initialize);
 

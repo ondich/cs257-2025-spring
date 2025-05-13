@@ -15,7 +15,7 @@
     exercise for you, dear reader.
  */
 
-window.onload = initialize;
+window.addEventListener("load", initialize);
 
 function initialize() {
     loadFirstList();

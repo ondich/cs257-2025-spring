@@ -3,7 +3,7 @@
  * Jeff Ondich, 9 November 2021
  */
 
-window.onload = initialize;
+window.addEventListener("load", initialize);
 
 function initialize() {
     let element = document.getElementById('submit_button');
